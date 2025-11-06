@@ -30,4 +30,3 @@ with open(fr_file, 'r', encoding='utf-8') as f_fr, \
                 pairs.append(f"{i}-{j}")
         fout.write(" ".join(pairs) + "\n")
 
-print(f"✅ Alignment finished. Saved to {align_file}")
